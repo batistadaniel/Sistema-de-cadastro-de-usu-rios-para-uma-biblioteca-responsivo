@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-image: url("/biblioteca-cadastro/images/banner-biblioteca.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: rgb(0, 0, 0); 
+    color: #0b96db;
+    padding: 10px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 0 50px;
+}
+
+#cadastro-usuario {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 1200px;
+    border-radius: 8px;
+    
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"] {
+    /* width: calc(100% 20px); */
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+@media (max-width: 1300px) {
+    #cadastro-usuario {
+        padding: 20px;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 1000px;
+        border-radius: 8px;
+        
+    }
+}
+@media (max-width: 1100px) {
+    #cadastro-usuario {
+        padding: 20px;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 700px;
+        border-radius: 8px;
+        
+    }
+}
+@media (max-width: 800px) {
+    #cadastro-usuario {
+        padding: 20px;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 625px;
+        border-radius: 8px;
+        
+    }
+}
+@media (max-width: 420px) {
+    #cadastro-usuario {
+        padding: 20px;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        border-radius: 8px;
+        
+    }
+}
